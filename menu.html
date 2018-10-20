@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <title>Menuzao</title>
+</head>
+<body>
+
+<form action="menu.php" method="POST">
+<div id='cssmenu'>
+<ul>
+  </li>
+   
+   <li class='last'><a href='menu.html'><span >Home</span></a>
+   
+   </li>
+   <li class='active has-sub'><a href='#'> <span>Cadastro</span></a>
+      <ul>
+         <li class='has-sub'><button class="b1" type="submit" name="cadastro" value="cliente"><span>Cliente</span></button>
+            
+         </li>
+         <li class='has-sub'><button  class="b1" type="submit" name="cadastro" value="funcionario"><span>Funcionário</span></button>
+            
+         </li>
+		 <li class='has-sub'><button class="b1" type="submit" name="cadastro" value="fornecedor"><span>Fornecedor</span></button>
+            
+         </li>
+		 <li class='has-sub'><button class="b1" type="submit" name="cadastro" value="produto"><span>Produto</span></button>
+            
+         </li>
+		 <li class='has-sub'><button class="b1" type="submit" name="cadastro" value="usuario"><span>Usuário</span></button>
+            
+         </li>
+      </ul>
+   </li>
+   <li class='active has-sub'><a href='#'><span>Consulta</span></a>
+      <ul>
+         <li class='has-sub'><button class="b1" type="submit" name="consulta" value="cliente"><span>Cliente</span></button>
+            
+         </li>
+         <li class='has-sub'><button  class="b1" type="submit" name="consulta" value="funcionario"><span>Funcionário</span></button>
+            
+         </li>
+       <li class='has-sub'><button class="b1" type="submit" name="consulta" value="fornecedor"><span>Fornecedor</span></button>
+            
+         </li>
+       <li class='has-sub'><button class="b1" type="submit" name="consulta" value="produto"><span>Produto</span></button>
+            
+         </li>
+       <li class='has-sub'><button class="b1" type="submit" name="consulta" value="usuario"><span>Usuário</span></button>
+            
+         </li>
+      </ul>
+   </li>
+
+      
+   </li>
+   
+   <li class='last' style="float:right;" ><a href='index.html'><span >Sair</span></a>
+   
+   </li>
+</ul>
+</div>
+
+</body>
+<style type="text/css">
+
+body{
+    background-image: url(img/fundo2.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.container{
+  float: right;
+  margin-top: 45%;
+}
+.b1{
+   width: 150px;
+   height: 40px;
+   background: #0fa1e0;
+   color: white;
+   border:1px solid #0fa1e0;
+   -webkit-transition-duration: 0.4s;
+   transition-duration: 0.1s;
+}
+.b1:hover{
+   border:1px solid red;
+   background-color: #0fa1e0;
+   color: black;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid #0a678f;
+    margin-left: 10px;
+}
+
+
+</style>
+<html>
